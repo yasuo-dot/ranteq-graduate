@@ -146,3 +146,6 @@ MVPリリース
 
 ■　画面遷移図
 https://www.figma.com/board/LFlykGJ0ZqZef9M7h2vq02/%E5%8D%92%E6%A5%AD%E5%88%B6%E4%BD%9C_%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3?node-id=0-1&t=4LWzfZeObAzI8pkC-1
+
+■　ER図
+https://www.figma.com/board/mK0x02znIED6PZq8iNCYDz/ER%E5%9B%B3?node-id=0-1&t=Yd5RBIzILTZcaZZe-1
