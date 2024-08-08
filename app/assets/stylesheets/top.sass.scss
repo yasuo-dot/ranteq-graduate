@@ -1,0 +1,153 @@
+  .header {
+    background-color: #ffffff;
+    padding: 0 10px;
+    //border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 1px 0 #e0e0e0;
+    
+
+  
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .navbar-brand {
+        .logo {
+          font-size: 24px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #007bff;
+        }
+      }
+  
+      .navbar-menu {
+        display: flex;
+        align-items: center;
+  
+        .navbar-link {
+          margin-left: 15px;
+          text-decoration: none;
+          color: #007bff;
+
+  
+          &:hover {
+            text-decoration: underline;
+          }
+
+        }
+      }
+    }
+  }
+
+
+  /* フッターのスタイル */
+
+
+
+  /* 他の要素に影響されているか確認する */
+  .footer {
+    height: 50px;
+    background-color: #ffffff;
+    padding: 0 0;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    z-index: 1; /* z-index を設定して、他の要素と重ならないようにする */
+    }
+    
+    
+    .footer-link {
+        color: #007bff;
+        text-decoration: none;
+        }
+    
+    .footer-link:hover {
+        text-decoration: underline;
+        }
+    
+    /* コンテナとレイアウトのスタイル */
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    .col-4 {
+        flex: 1;
+        text-align: center;
+        }
+    
+    .text-center {
+        text-align: center;
+        }
+    
+    .text-end {
+        text-align: end;
+        }
+  
+  /* ページ全体のレイアウト */
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  
+  .text-end {
+    text-align: end;
+  }
+  
+  
+/* トップ画面のスタイル */
+.top-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ビューポートの高さに合わせる */
+    text-align: center;
+    background-color: #f8f9fa; /* 背景色 */
+  }
+  
+  .top-screen .content {
+    max-width: 600px; /* コンテンツの最大幅 */
+    padding: 20px;
+  }
+  
+  .top-screen h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .top-screen p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 1%;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+
+  main {
+    flex: 1;
+  }

@@ -1,0 +1,57 @@
+
+
+<div class="container">
+  <h1>Sign Up</h1>
+  <div class="row justify-content-center">
+
+    <div class="col-md-6 ">
+      <div class="card">
+        <div class="card-body">
+          <%= form_with(model: @user, local: true, class: 'form-horizontal', id: 'user-form') do |form| %>
+            <%= render 'share/error_messages', object: @user %>
+              
+                <div class="form-group">
+                  <%= form.label :first_name, t('users.new.first_name'), class: 'col-form-label' %>
+                  <%= form.text_field :first_name, class: 'form-control' %>
+                </div>
+              
+                <div class="form-group">
+                  <%= form.label :last_name, t('users.new.last_name'), class: 'col-form-label' %>
+                  <%= form.text_field :last_name, class: 'form-control' %>
+                </div>
+              
+                <div class="form-group">
+                  <%= form.label :email, t('users.new.email'), class: 'col-form-label' %>
+                  <%= form.email_field :email, class: 'form-control' %>
+                </div>
+              
+                <div class="form-group">
+                  <%= form.label :password, t('users.new.password'), class: 'col-form-label' %>
+                  <%= form.password_field :password, class: 'form-control' %>
+                </div>
+              
+                <div class="form-group">
+                  <%= form.label :password_confirmation, t('users.new.password_confirmation'), class: 'col-form-label' %>
+                  <%= form.password_field :password_confirmation, class: 'form-control' %>
+                </div>
+              
+                <div class="form-group text-center">
+                  <%= button_tag '登録', class: 'btn btn-primary', id: 'submit-button' %>
+                </div>
+              <% end %>
+              
+              <script>
+                document.getElementById('submit-button').addEventListener('click', function(event) {
+                  event.preventDefault();
+                  document.getElementById('user-form').submit();
+                });
+              </script>
+                            
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,32 @@
+
+///ユーザー登録画面
+  .new-user-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ビューポートの高さに合わせる */
+    background-color: #f8f9fa; /* 背景色を設定 */
+  }
+  
+  .new-user-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+
+  body {
+    background-color: #f8f9fa; /* 背景色を設定 */
+    margin: 0; /* デフォルトのマージンをリセット */
+    padding: 0; /* デフォルトのパディングをリセット */
+
+  }
+
+  body h1 {
+    margin-top: 20px; /* フォームとの間隔を確保 */
+    text-align: center;
+  }
+
